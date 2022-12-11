@@ -1,0 +1,18 @@
+1) Giới thiệu bài toán:
+- Đề tài: Smart Home
+- Bài toán:
+	+ Bộ dữ liệu: Household Power Consumption
+		Các phép đo mức tiêu thụ điện trong một hộ gia đình với tốc độ lấy mẫu một phút trong khoảng thời gian gần 4 năm
+
+	+ Thông tin về các thuộc tính:
+		1.date: ngày theo định dạng dd/mm/yyyy
+		2.time: thời gian theo định dạng hh:mm:ss
+		3.globalactivepower: trung bình lượng tiêu thụ của các hộ gia đình trên toàn cầu theo từng phút (kW)
+		4.globalreactivepower: 
+		5.voltage: trung bình điện áp theo từng phút (V)
+		6.global_intensity: trung bình cường độ dòng điện của các hộ gia đình trên toàn cầu theo từng phút (kW)
+		7.submetering1: năng lượng đo từ đồng hồ đo 1 (Wh) - ứng với nhà bếp, chủ yếu chứa máy rửa chén, lò nướng và lò vi sóng (đĩa nóng không chạy bằng điện mà chạy bằng gas).
+		8.submetering2: năng lượng đo từ đồng hồ đo 2 (Wh) - ứng với phòng giặt ủi, có máy giặt, máy sấy quần áo, tủ lạnh và đèn chiếu sáng.
+		9.submetering3: năng lượng đo từ đồng hồ đo 3 (Wh) - ứng với một bình nước nóng điện và một máy điều hòa không khí.
+2) Mục tiêu bài toán:
+	Xây dựng mô hình Machine Learning dự đoán giá trị của submetering3 khi có kết quả các phép đo còn lại (trừ date & time)
