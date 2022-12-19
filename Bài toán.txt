@@ -1,3 +1,5 @@
+						Nhóm 11
+
 1) Giới thiệu bài toán:
 - Đề tài: Smart Home
 - Bài toán:
@@ -16,3 +18,13 @@
 		9.submetering3: năng lượng đo từ đồng hồ đo 3 (Wh) - ứng với một bình nước nóng điện và một máy điều hòa không khí.
 2) Mục tiêu bài toán:
 	Xây dựng mô hình Machine Learning dự đoán giá trị của submetering3 khi có kết quả các phép đo còn lại (trừ date & time)
+3) Bộ dữ liệu (~20k mẫu, hệ q.trị CSDL: MySQL)
+4) Công việc cá nhân:
+	- Phạm Xuân Huy - B19DCCN319: 
+		+ làm sạch dữ liệu
+		+ KNN
+		+ Decision Tree
+		+ biểu diễn dữ liệu vào Grafana
+	- Nguyễn Tuấn Dũng - B19DCCN127: KNN
+	- Ngô Tiến Thiệu - B19DCCN671: Bayes
+	- Nguyễn Quang Linh - B19DCCN376: Linear Regression
